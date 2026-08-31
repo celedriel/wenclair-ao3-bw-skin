@@ -1,0 +1,754 @@
+/* ===================================
+skin by @celedriell on twt & @celedriel on git
+header art by @bibinella on twt! tysm <3
+=================================== */
+
+#header {
+  background-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-bw-skin/refs/heads/main/pngs/wenclair-art-2.png") !important;
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  background-size: cover;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+#header .heading {
+  min-height: 230px !important;
+  width: 100%;
+  margin: 0 !important;
+  padding: 10px !important;
+  box-sizing: border-box;
+}
+
+#header .logo {
+  content: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-bw-skin/refs/heads/main/pngs/ao3-logo.png");
+}
+
+#header .heading sup {
+  visibility: hidden;
+  display: none;
+}
+
+#greeting {
+  width: 100%;
+  background: #000000 !important; 
+  margin: 0 !important;
+  padding: 5px 15px !important;
+  box-sizing: border-box;
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-bottom: 1px solid #1a1a1a !important;
+}
+
+#header .primary {
+  width: 100%;
+  background: #000000 !important;
+  margin: 0 !important;
+  box-sizing: border-box;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.icon img,
+#greeting .icon img,
+img.icon {
+  border-radius: 50% !important;
+  border: 3px solid #8a8a8a !important;
+}
+
+#outer.wrapper,
+body {
+  background-color: #000000 !important; 
+  color: #e6e6e6 !important;
+  overflow-x: hidden;
+}
+
+#outer.wrapper #inner.wrapper {
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+
+#main,
+#inner.wrapper,
+.listbox .index,
+.work.own,
+.thread .even {
+  background-color: transparent;
+  color: #e6e6e6;
+}
+
+.userstuff {
+  line-height: 1.8 !important;
+}
+
+#main .heading,
+#main .heading a,
+.work .heading a {
+  color: #ffffff !important;
+}
+
+div.module,
+#dashboard .navigation {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+div.module h3,
+div.module h3.heading,
+.dashboard .user .heading,
+fieldset legend,
+.statistics .heading,
+.filters .heading {
+  background-color: transparent !important;
+  color: #8a8a8a !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+a[rel="author"],
+.byline a {
+  color: #ffcef8 !important;
+}
+
+.work.blurb,
+li.blurb,
+.work .wrapper,
+#main .wrapper,
+.bookmark .user {
+  border: none;
+  background-color: transparent !important;
+  padding: 15px 10px;
+  margin-bottom: 15px;
+  box-shadow: none;
+}
+
+a,
+a.tag,
+#main a,
+#greeting a.dropdown-toggle {
+  color: #ffffff;
+  text-decoration: none;
+  outline: none !important;
+}
+
+a:hover,
+a:focus,
+a:active,
+#main a:hover,
+#main a:focus {
+  color: #ffcef8;
+  text-decoration: none;
+  background: transparent;
+  outline: none !important;
+}
+
+a:visited,
+a.tag:visited,
+#main a:visited,
+#main .heading a:visited,
+.work .heading a:visited,
+a[rel="author"]:visited,
+.byline a:visited {
+  color: #a3a3a3 !important;
+}
+
+h1.heading a {
+  color: #c3bfbf !important;
+  font-weight: 515;
+}
+
+#greeting .menu,
+#header .dropdown .menu,
+#header .dropdown:hover a,
+.dropdown,
+.ui-sortable li {
+  background: #000000; 
+  border: 1px solid #8a8a8a;
+  color: #e6e6e6;
+}
+
+.dynamic form,
+div.dynamic {
+  background: #000000; 
+  border: none !important;
+  color: #e6e6e6;
+}
+
+#header .menu a,
+#header .dropdown .menu a,
+#greeting .menu a,
+#header .dropdown .menu li {
+  border-color: #1a1a1a !important;
+  border-bottom-color: #1a1a1a !important;
+}
+
+#dashboard.own {
+  border-top: none !important;
+  border-bottom: 2px solid #1a1a1a;
+}
+
+#dashboard {
+  border-top: 2px solid #1a1a1a !important;
+  border-bottom: 2px solid #1a1a1a !important;
+}
+
+#dashboard a {
+  color: #e6e6e6;
+  outline: none !important;
+}
+
+#dashboard a:hover,
+.current,
+#dashboard .current {
+  background: #1a1a1a !important;
+  color: #ffcef8 !important;
+  border-radius: 5px;
+  outline: none !important;
+}
+
+button,
+.actions a,
+.actions a:link,
+.actions a:visited,
+.action,
+input[type="submit"],
+.filtering .filters #leave_filters,
+.navigation.actions a,
+.navigation.actions a:link,
+.navigation.actions a:visited {
+  color: #8a8a8a !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 1px solid #1a1a1a !important;
+  border-radius: 5px !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+#header .actions a,
+#greeting .actions a,
+#header .primary .menu a,
+#greeting .menu a {
+  border: none !important;
+  outline: none !important;
+}
+
+button:hover,
+button:focus,
+.actions a:hover,
+.actions a:focus,
+.action:hover,
+.action:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+.navigation.actions a:hover,
+.navigation.actions a:focus {
+  color: #ffcef8 !important;
+  background-color: #1a1a1a !important;
+  outline: none !important;
+}
+
+a.tag,
+li.warnings a,
+li.relationships a,
+li.characters a,
+li.freeforms a {
+  display: inline-block;
+  padding: 1.5px 5px;
+  margin: 2.5px 1px;
+  border-radius: 4px;
+  color: #e6e6e6 !important;
+  text-decoration: none;
+  border: none;
+  background-color: #1a1a1a !important;
+  outline: none !important;
+}
+
+.commas li:after {
+  content: "" !important;
+}
+
+li.warnings a {
+  background-color: #B30000 !important;
+  color: #FFFFFF !important;
+}
+
+li.relationships a {
+  background-color: #5c3c58 !important;
+  color: #ffcef8 !important;
+}
+
+li.characters a {
+  background-color: #724c6d !important;
+  color: #e6e6e6 !important;
+}
+
+li.freeforms a {
+  background-color: #4b637a !important;
+  color: #e6e6e6 !important;
+}
+
+a.tag:hover,
+li.warnings a:hover,
+li.relationships a:hover,
+li.characters a:hover,
+li.freeforms a:hover,
+a.tag:focus,
+li.warnings a:focus,
+li.relationships a:focus,
+li.characters a:focus,
+li.freeforms a:focus {
+  background-color: transparent !important;
+  border: none !important;
+  color: #ffcef8 !important;
+  outline: none !important;
+}
+
+.notice:not(.required),
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.comment_error,
+.kudos_error,
+.alert.flash,
+.comment,
+form dl,
+fieldset,
+input,
+select,
+textarea,
+span.symbol.question,
+.own,
+form.search input[type=text],
+form.search input[type=submit],
+.autocomplete div.dropdown ul {
+  background: #000000 !important;
+  color: #e6e6e6;
+  border: none !important;
+  box-shadow: none;
+  outline: none !important;
+}
+
+input,
+select,
+textarea,
+form.search input[type=text],
+form.search input[type=submit] {
+  border: 1px solid #8a8a8a !important;
+  border-radius: 5px !important;
+  color: #e6e6e6 !important;
+}
+
+.caution {
+  background: #F4F936 !important;
+  color: #000000 !important;
+}
+
+.error {
+  background: #E26586 !important;
+  color: #e6e6e6 !important;
+}
+
+#footer {
+  background: #000000; 
+  color: #e6e6e6;
+  border-top: none !important;
+}
+
+#footer a,
+#footer .heading {
+  color: #8a8a8a;
+  outline: none !important;
+}
+
+#footer .module,
+#footer .actions .menu,
+#footer .menu {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3a3a3a;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8a8a8a;
+}
+
+span.submit.actions input.button {
+  display: none;
+}
+
+.splash .favorite li:nth-of-type(odd),
+.favorite li:nth-of-type(odd),
+.splash .favorite li:nth-of-type(even),
+.favorite li:nth-of-type(even) {
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+}
+
+.splash .favorite li a,
+.favorite li a {
+  background-color: transparent !important;
+}
+
+.listbox,
+.listbox fieldset {
+  background-color: transparent !important;
+  border: 1px solid #1a1a1a !important;
+  border-radius: 10px !important;
+  padding: 15px !important;
+  box-shadow: none !important;
+}
+
+ol.work.index {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.filters,
+form#work-filters,
+form#bookmark-filters {
+  background-color: #000000 !important; 
+  border: 1px solid #8a8a8a !important;
+}
+
+.filters fieldset {
+  border-radius: 20px !important;
+}
+
+.filters fieldset legend {
+  color: #ffcef8 !important;
+  font-weight: bold !important;
+}
+
+.filters .heading,
+.filters h4.heading {
+  color: #ffcef8 !important;
+  background-color: transparent !important;
+}
+
+.filters .submit input {
+  color: #000000 !important;
+  background: #8a8a8a !important;
+  border: 1px solid #ffcef8 !important;
+  border-radius: 10px !important;
+  box-shadow: 0 0 4px #000 !important;
+  padding: 5px 15px;
+}
+
+.filters .submit input:hover {
+  background: #ffcef8 !important;
+  color: #000000 !important;
+}
+
+.filters dt {
+  background-color: transparent !important;
+  color: #e6e6e6 !important;
+  border-bottom: 1px solid #1a1a1a !important;
+}
+
+.filters dt:hover {
+  background-color: #111111 !important;
+}
+
+.filters dt a,
+.filters dt button {
+  color: #ffcef8 !important;
+  background: transparent !important;
+}
+
+.filters dt:hover a,
+.filters dt:hover button {
+  color: #ffffff !important;
+}
+
+.filters dd {
+  background-color: transparent !important;
+  color: #e6e6e6 !important;
+}
+
+li.message .header,
+li.message .header.module,
+li.comment .header,
+li.comment .header.module,
+li.message.unread .header,
+li.comment.unread .header,
+li.comment .heading,
+li.message .heading,
+li.comment.unread .heading,
+li.message.unread .heading,
+.thread .heading,
+h4.viewed.heading,
+.viewed.heading {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: 5px !important;
+  color: #e6e6e6 !important;
+}
+
+.icon {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+svg.icon.kudos-icon {
+  display: none !important;
+}
+
+p.kudos {
+  background-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-bw-skin/refs/heads/main/pngs/kudos.png") !important;
+  background-size: 60px !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
+  padding-left: 70px !important;
+  min-height: 60px !important;
+}
+
+#kudos_submit::before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-bw-skin/refs/heads/main/pngs/kudos.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#workskin {
+  border: 30px solid transparent;
+  border-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-bw-skin/refs/heads/main/pngs/board2.png") 25% round;
+  background-color: transparent;
+  padding: 10px 5px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+  margin: 0 auto;
+}
+
+#workskin .userstuff {
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+#workskin .userstuff p {
+  margin-top: 0.85em !important;
+  margin-bottom: 0.85em !important;
+}
+
+.actions .menu,
+#main .actions .menu,
+.action .menu {
+  background-color: #000000 !important; 
+  box-shadow: none !important;
+  border: 1px solid #8a8a8a !important;
+}
+
+#main form dd input[type="text"],
+#main form dd input[type="password"],
+#main form dd input[type="email"],
+#main form dd select,
+#main form dd textarea,
+.autocomplete .token {
+  border: 1px solid #8a8a8a !important;
+  background-color: #000000 !important;
+  color: #e6e6e6 !important;
+}
+
+#main form dd,
+#main form dd label,
+.autocomplete .added.tag,
+.autocomplete li {
+  color: #e6e6e6 !important;
+}
+
+#main form dd .note,
+#main form dd p.note,
+#main form dd p.character_counter,
+#main form dd .footnote,
+#main form dd p {
+  color: #ffcef8 !important;
+  font-weight: 500 !important;
+}
+
+#main form dl dt {
+  border-bottom: 1px solid #8a8a8a !important;
+  color: #8a8a8a !important;
+}
+
+.required.notice,
+.notice.required {
+  background-color: #1a1a1a !important;
+  border: 1px solid #1a1a1a !important;
+  color: #e6e6e6 !important;
+}
+
+.tox .tox-editor-header,
+.tox .tox-toolbar,
+.tox .tox-toolbarprimary,
+.tox .tox-toolbargroup {
+  background-color: #000000 !important; 
+}
+
+.tox .tox-tbtn {
+  background-color: #000000 !important; 
+  border: 1px solid #8a8a8a !important;
+  border-radius: 4px !important;
+}
+
+.tox .tox-tbtn svg {
+  fill: #e6e6e6 !important;
+}
+
+.tox .tox-tbtn span {
+  color: #e6e6e6 !important;
+}
+
+.tox .tox-tbtn:hover {
+  background-color: #ffcef8 !important;
+}
+
+.tox .tox-tbtn:hover svg {
+  fill: #000000 !important;
+}
+
+#main ul.index,
+#main ol.index,
+#main .listbox .index {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+dl.index dd,
+dl.subscription dd {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 5px !important;
+  padding: 10px !important;
+}
+
+p.caution,
+p.notice,
+.caution,
+.notice {
+  background-color: #1a1a1a !important;
+  color: #e6e6e6 !important;
+  border: 1px solid #8a8a8a !important;
+  border-radius: 5px !important;
+  padding: 10px 15px !important;
+}
+
+p.caution strong,
+p.notice strong,
+.caution strong,
+.notice strong {
+  color: #8a8a8a !important;
+}
+
+ul.expandable.secondary,
+.expandable.secondary {
+  background-color: transparent !important;
+  border: 1px solid #1a1a1a !important;
+  border-radius: 8px !important;
+  padding: 10px !important;
+  box-shadow: none !important;
+}
+
+ul.expandable.secondary li a {
+  color: #e6e6e6 !important;
+  outline: none !important;
+}
+
+ul.expandable.secondary li a:hover,
+ul.expandable.secondary li a:focus {
+  color: #ffcef8 !important;
+  background: transparent !important;
+  outline: none !important;
+}
+
+h2.heading a.tag,
+.tag.heading,
+#main h2.heading {
+  background-color: transparent !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+dl.statistics.meta.group {
+  background-color: #000000 !important; 
+  color: #e6e6e6 !important;
+  border: 1px solid #8a8a8a !important;
+}
+
+.statistics .index li:nth-of-type(2n) {
+  background-color: #111111 !important; 
+}
+
+.statistics .index li strong,
+.statistics .index li {
+  color: #e6e6e6 !important;
+}
+
+#stat_chart svg {
+  filter: grayscale(100%) invert(88%) brightness(120%) contrast(110%) !important;
+}
+
+div.favorite h3::before,
+div.news h3::before,
+div.admin h3::before,
+div.random.readings h3::before,
+div.latest.messages h3::before {
+  content: "";
+  display: inline-block;
+  width: 75px; 
+  height: 75px; 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+div.favorite h3::before {
+  background-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-bw-skin/refs/heads/main/pngs/favs.png");
+  width: 60px; 
+  height: 60px;
+}
+
+div.news h3::before,
+div.admin h3::before {
+  background-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-bw-skin/refs/heads/main/pngs/news.png");
+}
+
+div.random.readings h3::before {
+  background-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-bw-skin/refs/heads/main/pngs/infos.png");
+}
+
+div.latest.messages h3::before {
+  background-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-bw-skin/refs/heads/main/pngs/inbox.png");
+}
