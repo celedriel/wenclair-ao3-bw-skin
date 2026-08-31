@@ -45,7 +45,7 @@ header art by @bibinella on twt! tysm <3
 
 #header .primary {
   width: 100%;
-  background: #000000 !important;
+  background: #000000 !important; 
   margin: 0 !important;
   box-sizing: border-box;
   box-shadow: none !important;
@@ -326,7 +326,7 @@ span.symbol.question,
 form.search input[type=text],
 form.search input[type=submit],
 .autocomplete div.dropdown ul {
-  background: #000000 !important;
+  background: #000000 !important; 
   color: #e6e6e6;
   border: none !important;
   box-shadow: none;
@@ -354,7 +354,7 @@ form.search input[type=submit] {
 }
 
 #footer {
-  background: #000000; 
+  background: #000000;
   color: #e6e6e6;
   border-top: none !important;
 }
@@ -420,6 +420,7 @@ ol.work.index {
   padding: 0 !important;
 }
 
+
 .filters,
 form#work-filters,
 form#bookmark-filters {
@@ -481,6 +482,7 @@ form#bookmark-filters {
   background-color: transparent !important;
   color: #e6e6e6 !important;
 }
+
 
 li.message .header,
 li.message .header.module,
@@ -722,7 +724,8 @@ div.favorite h3::before,
 div.news h3::before,
 div.admin h3::before,
 div.random.readings h3::before,
-div.latest.messages h3::before {
+div.latest.messages h3::before,
+div.social h3::before {
   content: "";
   display: inline-block;
   width: 75px; 
@@ -751,4 +754,8 @@ div.random.readings h3::before {
 
 div.latest.messages h3::before {
   background-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-bw-skin/refs/heads/main/pngs/inbox.png");
+}
+
+div.social h3::before {
+  background-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-bw-skin/refs/heads/main/pngs/follow.png");
 }
