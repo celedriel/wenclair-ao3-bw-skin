@@ -759,3 +759,5 @@ div.latest.messages h3::before {
 div.social h3::before {
   background-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-bw-skin/refs/heads/main/pngs/follow.png");
 }
+
+#modal, #modal * { color: #000000 !important; }
