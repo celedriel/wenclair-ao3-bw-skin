@@ -54,7 +54,8 @@ header art by @bibinella on twt! tysm <3
 
 .icon img,
 #greeting .icon img,
-img.icon {
+img.icon,
+span.visitor.icon {
   border-radius: 50% !important;
   border: 3px solid #8a8a8a !important;
 }
