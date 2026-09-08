@@ -398,10 +398,15 @@ span.submit.actions input.button {
 }
 
 .splash .favorite li:nth-of-type(odd),
-.favorite li:nth-of-type(odd),
-.splash .favorite li:nth-of-type(even),
-.splash .favorite li:nth-of-type(even) {
+.favorite li:nth-of-type(odd) {
   background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+}
+
+.splash .favorite li:nth-of-type(even),
+.favorite li:nth-of-type(even) {
+  background-color: #1a1a1a !important; 
   background-image: none !important;
   border: none !important;
 }
