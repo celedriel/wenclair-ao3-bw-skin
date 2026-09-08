@@ -31,7 +31,7 @@ header art by @bibinella on twt! tysm <3
 
 #greeting {
   width: 100%;
-  background: #000000 !important; 
+  background: #000000 !important;
   margin: 0 !important;
   padding: 5px 15px !important;
   box-sizing: border-box;
@@ -273,6 +273,7 @@ li.freeforms a {
   content: "" !important;
 }
 
+
 li.warnings a {
   background-color: #B30000 !important;
   color: #FFFFFF !important;
@@ -284,14 +285,17 @@ li.relationships a {
 }
 
 li.characters a {
-  background-color: #724c6d !important;
-  color: #e6e6e6 !important;
+  background-color: #2b2b2b !important; 
+  color: #ffffff !important;
+  border: 1px solid #444444 !important; 
 }
 
 li.freeforms a {
-  background-color: #4b637a !important;
-  color: #e6e6e6 !important;
+  background-color: #1a1a1a !important; 
+  color: #cccccc !important;
+  border: 1px solid #333333 !important; 
 }
+
 
 a.tag:hover,
 li.warnings a:hover,
@@ -355,7 +359,7 @@ form.search input[type=submit] {
 }
 
 #footer {
-  background: #000000;
+  background: #000000; 
   color: #e6e6e6;
   border-top: none !important;
 }
@@ -396,7 +400,7 @@ span.submit.actions input.button {
 .splash .favorite li:nth-of-type(odd),
 .favorite li:nth-of-type(odd),
 .splash .favorite li:nth-of-type(even),
-.favorite li:nth-of-type(even) {
+.splash .favorite li:nth-of-type(even) {
   background-color: transparent !important;
   background-image: none !important;
   border: none !important;
@@ -445,8 +449,8 @@ form#bookmark-filters {
 }
 
 .filters .submit input {
-  color: #000000 !important;
-  background: #8a8a8a !important;
+  color: #ffffff !important;
+  background: #000000 !important;
   border: 1px solid #ffcef8 !important;
   border-radius: 10px !important;
   box-shadow: 0 0 4px #000 !important;
@@ -470,13 +474,13 @@ form#bookmark-filters {
 
 .filters dt a,
 .filters dt button {
-  color: #ffcef8 !important;
+  color: #ffffff !important;
   background: transparent !important;
 }
 
 .filters dt:hover a,
 .filters dt:hover button {
-  color: #ffffff !important;
+  color: #ffcef8 !important;
 }
 
 .filters dd {
@@ -573,7 +577,7 @@ p.kudos {
 #main form dd textarea,
 .autocomplete .token {
   border: 1px solid #8a8a8a !important;
-  background-color: #000000 !important;
+  background-color: #000000 !important; 
   color: #e6e6e6 !important;
 }
 
@@ -613,7 +617,7 @@ p.kudos {
 }
 
 .tox .tox-tbtn {
-  background-color: #000000 !important; 
+  background-color: #000000 !important;
   border: 1px solid #8a8a8a !important;
   border-radius: 4px !important;
 }
@@ -721,6 +725,7 @@ dl.statistics.meta.group {
   filter: grayscale(100%) invert(88%) brightness(120%) contrast(110%) !important;
 }
 
+
 div.favorite h3::before,
 div.news h3::before,
 div.admin h3::before,
@@ -762,3 +767,184 @@ div.social h3::before {
 }
 
 #modal, #modal * { color: #000000 !important; }
+
+.required-tags .rating-notrated,
+.required-tags .rating-general-audience,
+.required-tags .rating-explicit,
+.required-tags .rating-mature,
+.required-tags .rating-teen,
+.required-tags .category-femslash,
+.required-tags .category-gen,
+.required-tags .category-slash,
+.required-tags .category-none,
+.required-tags .category-het,
+.required-tags .category-multi,
+.required-tags .category-other,
+.required-tags .complete-no,
+.required-tags .complete-yes,
+.required-tags .warning-yes,
+.required-tags .warning-no,
+.required-tags .warning-choosenotto,
+.required-tags .external-work,
+.status .private .text,
+.status .public,
+.status .hidden,
+.status .rec,
+.status .count,
+.index .skins .icon,
+.index .mystery .icon,
+.index .tag .icon,
+.index .tagset .icon,
+.comment .icon .anonymous,
+.comment .icon .visitor,
+.abbreviated .icon .visitor,
+.abbreviated .icon .anonymous,
+.skins .primary .icon,
+.admin .primary .icon,
+.tagset .primary .icon,
+.tag .primary .icon,
+a.rss span,
+#symbols-key dl img, 
+#bookmark-symbols-key img, 
+img[src$="/images/skins/iconsets/default/icon_user.png"], 
+img[src$="/images/skins/iconsets/default/icon_collection.png"], 
+img[src$="/images/lockblue.png"] {
+  background-image: url("https://zerafinacss.github.io/ao3/imageset/bw.png"); 
+  background-size: 200px 835px;
+}
+
+
+#symbols-key dl img, 
+#bookmark-symbols-key img {
+  width: 0 !important;
+  height: 0 !important;
+  padding: 25px 0 0 25px;
+}
+
+img[src$="/images/skins/iconsets/default/rating-notrated.png"],
+img[src$="/images/skins/iconsets/default/category-none.png"],
+img[src$="/images/skins/iconsets/default/warning-no.png"] {
+  background-position: -150px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/rating-general-audience.png"] {
+  background-position: -50px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/rating-teen.png"] {
+  background-position: 0px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/rating-mature.png"] {
+  background-position: -75px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/rating-explicit.png"] {
+  background-position: -25px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/category-femslash.png"] {
+  background-position: -25px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/category-het.png"] {
+  background-position: -75px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/category-gen.png"] {
+  background-position: -50px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/category-multi.png"] {
+  background-position: -100px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/category-other.png"] {
+  background-position: -125px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/warning-choosenotto.png"] {
+  background-position: -125px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/warning-yes.png"] {
+  background-position: -150px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/warning-external-work.png"] {
+  background-position: -75px -50px;
+}
+
+img[src$="/images/skins/iconsets/default/complete-no.png"] {
+  background-position: -100px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/complete-yes.png"] {
+  background-position: -175px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/bookmark-rec.png"] {
+  background-position: -100px -50px;
+}
+
+img[src$="/images/skins/iconsets/default/bookmark-public.png"] {
+  background-position: -125px -50px;
+}
+
+img[src$="/images/skins/iconsets/default/bookmark-private.png"] {
+  background-position: -175px -50px;
+}
+
+img[src$="/images/skins/iconsets/default/bookmark-hidden.png"] {
+  background-position: -150px -50px;
+}
+
+
+img[src$="/images/skins/iconsets/default/icon_user.png"],
+img[src$="/images/skins/iconsets/default/icon_collection.png"],
+img[src$="/images/lockblue.png"] {
+  width: 0 !important;
+  height: 0 !important;
+}
+
+
+img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  padding: 100px 0 0 100px;
+  background-position: 0px -75px;
+}
+
+
+.index:not(.comment) .abbreviated img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  padding: 75px 0 0 75px;
+  background-position: 0px -375px;
+}
+
+
+.index:not(.comment) img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  padding: 55px 0 0 55px;
+  background-position: 0px -525px;
+}
+
+
+#greeting img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  padding: 1.786em 0 0 1.786em;
+  background-position: 0 -19px;
+  background-size: 201% !important;
+}
+
+
+img[src$="/images/skins/iconsets/default/icon_collection.png"] {
+  padding: 100px 0 0 100px;
+  background-position: -100px -175px;
+}
+
+
+.index img[src$="/images/skins/iconsets/default/icon_collection.png"] {
+  padding: 55px 0 0 55px;
+  background-position: -55px -525px;
+}
+
+img[src$="/images/lockblue.png"] {
+  padding: 15px 0 0 15px;
+  background-position: -155px -305px;
+}
