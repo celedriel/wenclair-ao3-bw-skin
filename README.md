@@ -123,8 +123,14 @@ Siga o passo a passo abaixo para aplicar a skin na sua conta:
 
 ____
 
-### Credits (Header Art)
+### Credits (Header Art and Icons)
 
 A huge thank you to [**@bibinella94**](https://x.com/bibinella94) for kindly allowing the use of their beautiful artwork for this skin's header! Please check out and support her amazing work on twitter.
 
-Agradecimento a [**@bibinella94**](https://x.com/bibinella94) por gentilmente permitir o uso da arte na header da skin! Não deixem de acompanhar e apoiar o trabalho incrível dela no twitter.
+Agradecimento a [**@bibinella94**](https://x.com/bibinella94) por permitir o uso da arte na header da skin! Não deixem de acompanhar e apoiar o trabalho incrível dela no twitter.
+
+____
+
+A special thanks to [**ZerafinaCSS**](https://www.tumblr.com/zerafinacss) for the amazing "Replace the AO3 Icons" set  used in this skin. You can find the original code and support their work on [AO3](https://ao3.org/works/54831748) and [GitHub](https://github.com/ZerafinaCSS/Replace-the-AO3-Icons).
+
+Um agradecimento especial a [**ZerafinaCSS**](https://www.tumblr.com/zerafinacss) pelo incrível set "Replace the AO3 Icons" usado nesta skin. Você pode encontrar o código original e apoiar o trabalho no [AO3](https://ao3.org/works/54831748) e no [GitHub](https://github.com/ZerafinaCSS/Replace-the-AO3-Icons).
