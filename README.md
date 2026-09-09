@@ -17,7 +17,7 @@
 <a href="https://github.com/celedriel">![badge](https://img.shields.io/badge/Made_by-celedriel-262622?style=for-the-badge&logo=github&logoColor=262622&logoSize=auto&color=D6D6D6) </a>
 <a href="https://archiveofourown.org/">![badge](https://img.shields.io/badge/Platform-AO3-262622?style=for-the-badge&logo=archiveofourown&logoColor=262622&logoSize=auto&color=D6D6D6) </a>
 <a href="#">![badge](https://img.shields.io/badge/Code-CSS3-262622?style=for-the-badge&logo=css3&logoColor=262622&logoSize=auto&color=D6D6D6) </a>
-<a href="https://github.com/celedriel/wenclair-ao3-skin/commits/main">![GitHub last commit](https://img.shields.io/github/last-commit/celedriel/wenclair-ao3-skin?style=for-the-badge&logo=git&logoColor=262622&color=D6D6D6)</a>
+<a href="https://github.com/celedriel/wenclair-ao3-skin/commits/main">![GitHub last commit](https://img.shields.io/github/last-commit/celedriel/wenclair-ao3-bw-skin?style=for-the-badge&logo=git&logoColor=262622&color=D6D6D6)</a>
 
 </div>
 
