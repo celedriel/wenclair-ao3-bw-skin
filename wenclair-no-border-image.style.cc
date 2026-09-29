@@ -798,10 +798,6 @@ div.social h3::before {
 .index .mystery .icon,
 .index .tag .icon,
 .index .tagset .icon,
-.comment .icon .anonymous,
-.comment .icon .visitor,
-.abbreviated .icon .visitor,
-.abbreviated .icon .anonymous,
 .skins .primary .icon,
 .admin .primary .icon,
 .tagset .primary .icon,
@@ -809,7 +805,6 @@ div.social h3::before {
 a.rss span,
 #symbols-key dl img, 
 #bookmark-symbols-key img, 
-img[src$="/images/skins/iconsets/default/icon_user.png"], 
 img[src$="/images/skins/iconsets/default/icon_collection.png"], 
 img[src$="/images/lockblue.png"] {
   background-image: url("https://zerafinacss.github.io/ao3/imageset/bw.png"); 
@@ -902,45 +897,16 @@ img[src$="/images/skins/iconsets/default/bookmark-hidden.png"] {
   background-position: -150px -50px;
 }
 
-
-img[src$="/images/skins/iconsets/default/icon_user.png"],
 img[src$="/images/skins/iconsets/default/icon_collection.png"],
 img[src$="/images/lockblue.png"] {
   width: 0 !important;
   height: 0 !important;
 }
 
-
-img[src$="/images/skins/iconsets/default/icon_user.png"] {
-  padding: 100px 0 0 100px;
-  background-position: 0px -75px;
-}
-
-
-.index:not(.comment) .abbreviated img[src$="/images/skins/iconsets/default/icon_user.png"] {
-  padding: 75px 0 0 75px;
-  background-position: 0px -375px;
-}
-
-
-.index:not(.comment) img[src$="/images/skins/iconsets/default/icon_user.png"] {
-  padding: 55px 0 0 55px;
-  background-position: 0px -525px;
-}
-
-
-#greeting img[src$="/images/skins/iconsets/default/icon_user.png"] {
-  padding: 1.786em 0 0 1.786em;
-  background-position: 0 -19px;
-  background-size: 201% !important;
-}
-
-
 img[src$="/images/skins/iconsets/default/icon_collection.png"] {
   padding: 100px 0 0 100px;
   background-position: -100px -175px;
 }
-
 
 .index img[src$="/images/skins/iconsets/default/icon_collection.png"] {
   padding: 55px 0 0 55px;
